@@ -1,4 +1,4 @@
-import './assets/index.scss'
+import './assets/scss/index.scss'
 
 if (process.env.NODE_ENV === 'development') {
   require('../public/index.html')

@@ -1,0 +1,15 @@
+
+@import './helper/variable.scss';
+
+body {
+  color: $body-color;
+  font-family: sans-serif;
+}
+
+[contenteditable] {
+  -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+  outline: none;
+}
