@@ -1,4 +1,4 @@
-# qEditor
+# web-editor
 
 ### Plane
 - 数据驱动：数据结构设计与Dom渲染
