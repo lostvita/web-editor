@@ -17,8 +17,10 @@ function createVNode(data) {
 }
 
 export default function initEditor(ed) {
-  const data = ed.$data || { tag: 'div', props: { id: 'block-id', contentEditable: 'true' }, style: { color: 'red' }, children: ['hello'] }
+  const data = ed.$options.data
   const container = ed.$options.el
+  const temp = document.createElement('div')
+  container.appendChild(temp)
   const vnode = createVNode(data)
-  patch(container, vnode)
+  patch(temp, vnode)
 }

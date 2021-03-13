@@ -7,7 +7,7 @@
     "lint:styles": "stylelint src",
     "lint:scripts": "eslint src",
     "build": "cross-env NODE_ENV=production webpack --config script/webpack.config.prod.js --progress",
-    "dev": "webpack serve --config script/webpack.config.dev.js --progress"
+    "dev": "webpack serve --config script/webpack.config.dev.js"
   },
   "repository": {
     "type": "git",

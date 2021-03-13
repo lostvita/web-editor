@@ -1,7 +1,8 @@
+
 import './assets/scss/index.scss'
 
 if (process.env.NODE_ENV === 'development') {
-  require('../public/index.html')
+  import('../public/index.html')
 }
 
 import Editor from './core'
