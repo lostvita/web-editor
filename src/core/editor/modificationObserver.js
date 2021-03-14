@@ -17,7 +17,6 @@ function mutationHandler(mutationList, observer) {
 }
 
 function initObserver(el) {
-  console.log(el)
   if (!el) return
   const observer = new MutationObserver(mutationHandler)
   observer.observe(el, observerOptions)
